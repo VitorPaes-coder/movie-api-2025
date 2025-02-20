@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-none;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    padding: 22px;
+}
+
+#galeria {
+
+    display: column;
+    columns: 4;
+}
+
+#galeria img {
+    width: 100%;
+    padding-block: 4px;
+    border-radius: 16px;
+
+}
+
+#galeria img:hover {
+    transform: scale(103%);
+    transition: 0.5s;
+}
+
+#pesquisar {
+    border-style: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 5px;
+    padding-right: 20px;
+    padding: 5px;
+    background-color: rgb(236, 21, 21);
+    color: white;
+    font-weight: bold;
+    font-size: 13.5px;
+}
+
+#filme {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-style: none;
+    
+}
+
+#filme:placeholder-shown {
+    color: rgb(226, 19, 19);
+    
+}
+
+#filme::placeholder {
+    color: rgb(146, 16, 16);
+    
+}
